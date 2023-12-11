@@ -1,0 +1,320 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    /* margin-left: 60px; */
+    /* margin-right: 60px; */
+    height: 90px;
+}
+
+
+
+
+.logo {
+    margin-bottom: 10px; 
+    /* Add some space between logo and h1 */
+}
+
+.logo img {
+    width: 85px;
+    height: 85px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0; /* Remove default margin for h1 */
+}
+
+
+
+nav {
+
+    padding: 10px;
+    text-align: center;
+    /* margin-left: 75px; */
+    /* margin-right: 75px; */
+}
+
+.nav{
+    height: 4px;
+    width: 100%;
+    background-color: #791919;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #791919;
+    cursor: pointer;
+}
+
+.section1 {
+    background-color: #ecf0f1;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.section {
+    border: 2px #791919;
+    background-color: #ecf0f1;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Wrap to a new line on smaller screens */
+    padding: 20px;
+}
+
+.logo2 {
+    max-width: 80%;
+    height: auto;
+    margin-left: 150px;
+
+}
+
+.paragraph {
+    border: 3px black;
+    margin: 50px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+/* Add a media query for better responsiveness */
+@media (max-width: 768px) {
+    .logo2,
+    .paragraph {
+        flex: 0 0 100%; /* Full width on smaller screens */
+        margin-bottom: 20px; /* Optional: Add some space between elements */
+    }
+}
+
+h2 {
+    color: #4a0303;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.col img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+.logo {
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any default inline styling */
+    margin: 0 auto; /* Center the image horizontally */
+}
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+span{
+    margin-left: 30px;
+}
+
+#a{
+    
+    padding: 70px;
+}
+
+#a:hover{
+    box-shadow: 2px 2px 4px 2px rgba(65, 52, 52, 0.2);
+    background-color: #34495e;
+
+}
+
+#b{
+    padding: 15px;
+}
+
+#b:hover{
+    box-shadow: 4px 4px 4px 2px rgba(65, 52, 52, 0.2);
+    border-radius: 20px;
+    /* background-color: rgb(208, 228, 203); */
+
+}
+
+
+
+
+
+/* for icons below image */
+.person-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.person {
+    text-align: center;
+}
+
+.person i {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+
+/* for header  */
+
+body {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+}
+
+#header {
+    background-color: #333; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    padding: 20px; /* Adjust the padding as needed */
+    text-align: center; /* Center-align the text */
+    width: 100%; /* Set the width to 100% to span the entire width */
+}
+
+.logo img {
+    max-width: 100px; /* Adjust the maximum width of the logo image */
+    height: auto; /* Maintain the aspect ratio of the logo */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+h1 {
+    font-size: 24px; /* Adjust the font size of the heading */
+    margin: 0; /* Remove default margin */
+}
+
+
+
+
+/* for navbar */
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    padding: 10px; /* Adjust the padding as needed */
+    text-align: center; /* Center-align the navigation items */
+}
+
+nav ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Display navigation items in a row */
+    justify-content: center; /* Center-align the navigation items */
+}
+
+nav li {
+    margin: 0 15px; /* Adjust the margin between navigation items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Change link color to your preference */
+    font-weight: bold; /* Make the font bold */
+    font-size: 16px; /* Adjust the font size */
+}
+
+/* Change the style when hovering over a link */
+nav a:hover {
+    color: #ffd700; /* Change the link color on hover to your preference */
+}
+
+
+/* for homepage */
+#home {
+    background: url('img/college-photo.png') center/cover no-repeat;
+    height: 100vh; /* This ensures the section covers the entire viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Additional styling for the section if needed */
+.section1 {
+    color: #fff;
+    text-align: center;
+}
+
+/* Additional styling for the logo if needed */
+.col img {
+    max-width: 100%;
+    height: auto;
+}
+
+#raku{
+    justify-content: space-between;
+    margin-left: 270px;
+    margin-right: 200px;
+    background-color: gray;
+    padding: 30px;
+}
+
+.ab{
+    padding: 2px;
+    margin: 4px;
+    /* border: 2px solid rgb(108, 86, 86); */
+
+}
+
+.ab:hover{
+    border: 2px solid black;
+
+}
+
+#raku h2::before {
+    font-family: 'Font Awesome 6 Free';
+    content: '\f35d'; /* Unicode for the external-link-alt icon */
+    margin-right: 0.5em;
+}

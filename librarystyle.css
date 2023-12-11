@@ -1,0 +1,29 @@
+.section {
+    border: 2px #791919;
+    background-color: #ecf0f1;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.paragraph {
+    border: 3px black;
+    margin: 50px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-align: justify;
+}
+.logo {
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any default inline styling */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+#b{
+    padding: 30px;
+}
